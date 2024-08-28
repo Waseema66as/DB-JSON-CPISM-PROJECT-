@@ -1,0 +1,913 @@
+{
+    "FashionTrends": [
+      {
+        "name": "Seasonal Trends",
+        "id": 1,
+        "description": "Trends based on seasonal changes and weather conditions.",
+        "file_path": "/images/SeasonalTrends.jpg",
+        "sub_categories": [
+          {
+            "name": "Spring/Summer",
+            "id": 11,
+            "description": "Trends for the Spring and Summer seasons.",
+            "file_path": "/images/SpringSummer.jpg",
+            "data": [
+              {
+                "itemname": "Spring Floral Dress",
+                "id": 111,
+                "file_path": "/images/SpringFloralDress.jpg"
+              },
+              {
+                "itemname": "Summer Maxi Dress",
+                "id": 112,
+                "file_path": "/images/SummerMaxiDress.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Fall/Winter",
+            "id": 12,
+            "description": "Trends for the Fall and Winter seasons.",
+            "file_path": "/images/FallWinter.jpg",
+            "data": [
+              {
+                "itemname": "Winter Wool Coat",
+                "id": 121,
+                "file_path": "/images/WinterWoolCoat.jpg"
+              },
+              {
+                "itemname": "Chunky Knit Sweater",
+                "id": 122,
+                "file_path": "/images/ChunkyKnitSweater.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Runway Trends",
+        "id": 2,
+        "description": "Trends showcased on high fashion runways.",
+        "file_path": "/images/RunwayTrends.jpg",
+        "sub_categories": [
+          {
+            "name": "Haute Couture",
+            "id": 21,
+            "description": "Exclusive and high-end runway fashion.",
+            "file_path": "/images/HauteCouture.jpg",
+            "data": [
+              {
+                "itemname": "Haute Couture Gown",
+                "id": 211,
+                "file_path": "/images/HauteCoutureGown.jpg"
+              },
+              {
+                "itemname": "High Fashion Suit",
+                "id": 212,
+                "file_path": "/images/HighFashionSuit.jpg"
+              }
+            ]
+          },
+          {
+            "name": "High Fashion",
+            "id": 22,
+            "description": "Trends and collections from high fashion designers.",
+            "file_path": "/images/HighFashion.jpg",
+            "data": [
+              {
+                "itemname": "Fashion Forward Jacket",
+                "id": 221,
+                "file_path": "/images/FashionForwardJacket.jpg"
+              },
+              {
+                "itemname": "Designer Silk Blouse",
+                "id": 222,
+                "file_path": "/images/DesignerSilkBlouse.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Street Style Trends",
+        "id": 3,
+        "description": "Trends inspired by urban and casual street fashion.",
+        "file_path": "/images/StreetStyleTrends.jpg",
+        "sub_categories": [
+          {
+            "name": "Urban",
+            "id": 31,
+            "description": "Trendy urban fashion inspired by city life.",
+            "file_path": "/images/Urban.jpg",
+            "data": [
+              {
+                "itemname": "Urban Hoodie",
+                "id": 311,
+                "file_path": "/images/UrbanHoodie.jpg"
+              },
+              {
+                "itemname": "Distressed Jeans",
+                "id": 312,
+                "file_path": "/images/DistressedJeans.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Casual",
+            "id": 32,
+            "description": "Relaxed and comfortable fashion for everyday wear.",
+            "file_path": "/images/Casual.jpg",
+            "data": [
+              {
+                "itemname": "Casual Denim Jacket",
+                "id": 321,
+                "file_path": "/images/CasualDenimJacket.jpg"
+              },
+              {
+                "itemname": "Graphic T-Shirt",
+                "id": 322,
+                "file_path": "/images/GraphicTShirt.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Celebrity Influenced",
+        "id": 4,
+        "description": "Fashion trends inspired by celebrity styles and red carpet appearances.",
+        "file_path": "/images/CelebrityInfluenced.jpg",
+        "sub_categories": [
+          {
+            "name": "Celebrity Styles",
+            "id": 41,
+            "description": "Fashion trends inspired by celebrity street style.",
+            "file_path": "/images/CelebrityStyles.jpg",
+            "data": [
+              {
+                "itemname": "Celebrity Sunglasses",
+                "id": 411,
+                "file_path": "/images/CelebritySunglasses.jpg"
+              },
+              {
+                "itemname": "Red Carpet Dress",
+                "id": 412,
+                "file_path": "/images/RedCarpetDress.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Red Carpet Trends",
+            "id": 42,
+            "description": "Trends based on red carpet fashion.",
+            "file_path": "/images/RedCarpetTrends.jpg",
+            "data": [
+              {
+                "itemname": "Glamorous Gown",
+                "id": 421,
+                "file_path": "/images/GlamorousGown.jpg"
+              },
+              {
+                "itemname": "Statement Jewelry",
+                "id": 422,
+                "file_path": "/images/StatementJewelry.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sustainable Fashion",
+        "id": 5,
+        "description": "Fashion trends focusing on sustainability and eco-friendliness.",
+        "file_path": "/images/SustainableFashion.jpg",
+        "sub_categories": [
+          {
+            "name": "Eco-Friendly",
+            "id": 51,
+            "description": "Fashion items made from eco-friendly materials.",
+            "file_path": "/images/EcoFriendly.jpg",
+            "data": [
+              {
+                "itemname": "Organic Cotton T-Shirt",
+                "id": 511,
+                "file_path": "/images/OrganicCottonTShirt.jpg"
+              },
+              {
+                "itemname": "Recycled Fabric Jacket",
+                "id": 512,
+                "file_path": "/images/RecycledFabricJacket.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Ethical Brands",
+            "id": 52,
+            "description": "Brands known for ethical and responsible fashion.",
+            "file_path": "/images/EthicalBrands.jpg",
+            "data": [
+              {
+                "itemname": "Ethical Wool Sweater",
+                "id": 521,
+                "file_path": "/images/EthicalWoolSweater.jpg"
+              },
+              {
+                "itemname": "Fair Trade Handbag",
+                "id": 522,
+                "file_path": "/images/FairTradeHandbag.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ProductCategories": [
+      {
+        "name": "Clothing",
+        "id": 6,
+        "description": "Various types of clothing items including dresses, suits, and more.",
+        "file_path": "/images/Clothing.jpg",
+        "sub_categories": [
+          {
+            "name": "Dresses",
+            "id": 61,
+            "description": "A range of dresses suitable for various occasions.",
+            "file_path": "/images/Dresses.jpg",
+            "data": [
+              {
+                "itemname": "Elegant Evening Dress",
+                "id": 611,
+                "file_path": "/images/ElegantEveningDress.jpg"
+              },
+              {
+                "itemname": "Casual Sundress",
+                "id": 612,
+                "file_path": "/images/CasualSundress.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Suits",
+            "id": 62,
+            "description": "Formal and semi-formal suits for men and women.",
+            "file_path": "/images/Suits.jpg",
+            "data": [
+              {
+                "itemname": "Men's Tailored Suit",
+                "id": 621,
+                "file_path": "/images/MensTailoredSuit.jpg"
+              },
+              {
+                "itemname": "Women's Blazer Suit",
+                "id": 622,
+                "file_path": "/images/WomensBlazerSuit.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Accessories",
+        "id": 7,
+        "description": "Fashion accessories including jewelry, bags, and more.",
+        "file_path": "/images/Accessories.jpg",
+        "sub_categories": [
+          {
+            "name": "Jewelry",
+            "id": 71,
+            "description": "A collection of jewelry items including earrings, necklaces, and more.",
+            "file_path": "/images/Jewelry.jpg",
+            "data": [
+              {
+                "itemname": "Gold Hoop Earrings",
+                "id": 711,
+                "file_path": "/images/GoldHoopEarrings.jpg"
+              },
+              {
+                "itemname": "Silver Necklace",
+                "id": 712,
+                "file_path": "/images/SilverNecklace.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Bags",
+            "id": 72,
+            "description": "Various types of bags including handbags, backpacks, and more.",
+            "file_path": "/images/Bags.jpg",
+            "data": [
+              {
+                "itemname": "Leather Crossbody Bag",
+                "id": 721,
+                "file_path": "/images/LeatherCrossbodyBag.jpg"
+              },
+              {
+                "itemname": "Canvas Tote Bag",
+                "id": 722,
+                "file_path": "/images/CanvasToteBag.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Footwear",
+        "id": 8,
+        "description": "Different types of footwear including sneakers, heels, and more.",
+        "file_path": "/images/Footwear.jpg",
+        "sub_categories": [
+          {
+            "name": "Sneakers",
+            "id": 81,
+            "description": "Comfortable and stylish sneakers for various activities.",
+            "file_path": "/images/Sneakers.jpg",
+            "data": [
+              {
+                "itemname": "Running Sneakers",
+                "id": 811,
+                "file_path": "/images/RunningSneakers.jpg"
+              },
+              {
+                "itemname": "Casual Sneakers",
+                "id": 812,
+                "file_path": "/images/CasualSneakers.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Heels",
+            "id": 82,
+            "description": "Elegant and stylish heels for formal and special occasions.",
+            "file_path": "/images/Heels.jpg",
+            "data": [
+              {
+                "itemname": "Stiletto Heels",
+                "id": 821,
+                "file_path": "/images/StilettoHeels.jpg"
+              },
+              {
+                "itemname": "Block Heels",
+                "id": 822,
+                "file_path": "/images/BlockHeels.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Athleisure",
+        "id": 9,
+        "description": "Fashionable and functional workout and activewear.",
+        "file_path": "/images/Athleisure.jpg",
+        "sub_categories": [
+          {
+            "name": "Workout Clothes",
+            "id": 91,
+            "description": "Clothing designed specifically for workouts and exercise.",
+            "file_path": "/images/WorkoutClothes.jpg",
+            "data": [
+              {
+                "itemname": "Performance Leggings",
+                "id": 911,
+                "file_path": "/images/PerformanceLeggings.jpg"
+              },
+              {
+                "itemname": "Breathable Sports Bra",
+                "id": 912,
+                "file_path": "/images/BreathableSportsBra.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Activewear",
+            "id": 92,
+            "description": "Casual wear that doubles as workout gear.",
+            "file_path": "/images/Activewear.jpg",
+            "data": [
+              {
+                "itemname": "Gym Shorts",
+                "id": 921,
+                "file_path": "/images/GymShorts.jpg"
+              },
+              {
+                "itemname": "Zip-Up Jacket",
+                "id": 922,
+                "file_path": "/images/ZipUpJacket.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Occasion Wear",
+        "id": 10,
+        "description": "Clothing suited for various occasions such as formal events, casual outings, and parties.",
+        "file_path": "/images/OccasionWear.jpg",
+        "sub_categories": [
+          {
+            "name": "Formal",
+            "id": 101,
+            "description": "Formal wear for business and elegant events.",
+            "file_path": "/images/Formal.jpg",
+            "data": [
+              {
+                "itemname": "Black Tie Dress",
+                "id": 1011,
+                "file_path": "/images/BlackTieDress.jpg"
+              },
+              {
+                "itemname": "Tailored Blazer",
+                "id": 1012,
+                "file_path": "/images/TailoredBlazer.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Casual",
+            "id": 102,
+            "description": "Casual wear for everyday activities and relaxed outings.",
+            "file_path": "/images/Casual.jpg",
+            "data": [
+              {
+                "itemname": "Casual Trousers",
+                "id": 1021,
+                "file_path": "/images/CasualTrousers.jpg"
+              },
+              {
+                "itemname": "Comfortable Sneakers",
+                "id": 1022,
+                "file_path": "/images/ComfortableSneakers.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Party",
+            "id": 103,
+            "description": "Festive and stylish wear for social gatherings and parties.",
+            "file_path": "/images/Party.jpg",
+            "data": [
+              {
+                "itemname": "Party Dress",
+                "id": 1031,
+                "file_path": "/images/PartyDress.jpg"
+              },
+              {
+                "itemname": "Cocktail Dress",
+                "id": 1032,
+                "file_path": "/images/CocktailDress.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "StylingServices": [
+      {
+        "name": "Personal Styling",
+        "id": 11,
+        "description": "One-on-one consultations and personal shopping services.",
+        "file_path": "/images/PersonalStyling.jpg",
+        "sub_categories": [
+          {
+            "name": "One-on-One Consultations",
+            "id": 111,
+            "description": "Personalized fashion advice and styling sessions.",
+            "file_path": "/images/OneOnOneConsultations.jpg",
+            "data": [
+              {
+                "itemname": "Stylist Consultation Package",
+                "id": 1111,
+                "file_path": "/images/StylistConsultationPackage.jpg"
+              },
+              {
+                "itemname": "Fashion Advice Session",
+                "id": 1112,
+                "file_path": "/images/FashionAdviceSession.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Personal Shopper",
+            "id": 112,
+            "description": "Assistance with shopping for personal style needs.",
+            "file_path": "/images/PersonalShopper.jpg",
+            "data": [
+              {
+                "itemname": "Personal Shopping Service",
+                "id": 1121,
+                "file_path": "/images/PersonalShoppingService.jpg"
+              },
+              {
+                "itemname": "Wardrobe Enhancement",
+                "id": 1122,
+                "file_path": "/images/WardrobeEnhancement.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wardrobe Revamp",
+        "id": 12,
+        "description": "Services for organizing and planning your wardrobe.",
+        "file_path": "/images/WardrobeRevamp.jpg",
+        "sub_categories": [
+          {
+            "name": "Closet Organization",
+            "id": 121,
+            "description": "Professional organization of your wardrobe.",
+            "file_path": "/images/ClosetOrganization.jpg",
+            "data": [
+              {
+                "itemname": "Closet Organization Package",
+                "id": 1211,
+                "file_path": "/images/ClosetOrganizationPackage.jpg"
+              },
+              {
+                "itemname": "Decluttering Service",
+                "id": 1212,
+                "file_path": "/images/DeclutteringService.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Outfit Planning",
+            "id": 122,
+            "description": "Planning and creating outfits for different occasions.",
+            "file_path": "/images/OutfitPlanning.jpg",
+            "data": [
+              {
+                "itemname": "Outfit Planning Consultation",
+                "id": 1221,
+                "file_path": "/images/OutfitPlanningConsultation.jpg"
+              },
+              {
+                "itemname": "Seasonal Wardrobe Planning",
+                "id": 1222,
+                "file_path": "/images/SeasonalWardrobePlanning.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Virtual Styling",
+        "id": 13,
+        "description": "Online consultations and virtual try-ons.",
+        "file_path": "/images/VirtualStyling.jpg",
+        "sub_categories": [
+          {
+            "name": "Online Consultations",
+            "id": 131,
+            "description": "Virtual styling sessions conducted online.",
+            "file_path": "/images/OnlineConsultations.jpg",
+            "data": [
+              {
+                "itemname": "Virtual Styling Session",
+                "id": 1311,
+                "file_path": "/images/VirtualStylingSession.jpg"
+              },
+              {
+                "itemname": "Online Wardrobe Review",
+                "id": 1312,
+                "file_path": "/images/OnlineWardrobeReview.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Virtual Try-Ons",
+            "id": 132,
+            "description": "Try on clothes virtually with our technology.",
+            "file_path": "/images/VirtualTryOns.jpg",
+            "data": [
+              {
+                "itemname": "Virtual Try-On Service",
+                "id": 1321,
+                "file_path": "/images/VirtualTryOnService.jpg"
+              },
+              {
+                "itemname": "Augmented Reality Fitting",
+                "id": 1322,
+                "file_path": "/images/AugmentedRealityFitting.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "TargetDemographics": [
+      {
+        "name": "Adults",
+        "id": 14,
+        "description": "Fashion and products targeted at adult individuals.",
+        "file_path": "/images/Adults.jpg",
+        "sub_categories": [
+          {
+            "name": "Professional",
+            "id": 141,
+            "description": "Fashion suitable for professionals and office wear.",
+            "file_path": "/images/Professional.jpg",
+            "data": [
+              {
+                "itemname": "Business Suit",
+                "id": 1411,
+                "file_path": "/images/BusinessSuit.jpg"
+              },
+              {
+                "itemname": "Office Dress",
+                "id": 1412,
+                "file_path": "/images/OfficeDress.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Casual",
+            "id": 142,
+            "description": "Casual fashion for relaxed and everyday wear.",
+            "file_path": "/images/Casual.jpg",
+            "data": [
+              {
+                "itemname": "Casual T-Shirt",
+                "id": 1421,
+                "file_path": "/images/CasualTShirt.jpg"
+              },
+              {
+                "itemname": "Weekend Jeans",
+                "id": 1422,
+                "file_path": "/images/WeekendJeans.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Teens",
+        "id": 15,
+        "description": "Fashion and products targeted at teenagers.",
+        "file_path": "/images/Teens.jpg",
+        "sub_categories": [
+          {
+            "name": "Trendy",
+            "id": 151,
+            "description": "Fashionable and trendy items for teens.",
+            "file_path": "/images/Trendy.jpg",
+            "data": [
+              {
+                "itemname": "Graphic Hoodie",
+                "id": 1511,
+                "file_path": "/images/GraphicHoodie.jpg"
+              },
+              {
+                "itemname": "Ripped Jeans",
+                "id": 1512,
+                "file_path": "/images/RippedJeans.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Casual",
+            "id": 152,
+            "description": "Relaxed and comfortable fashion for everyday teen wear.",
+            "file_path": "/images/Casual.jpg",
+            "data": [
+              {
+                "itemname": "Basic T-Shirt",
+                "id": 1521,
+                "file_path": "/images/BasicTShirt.jpg"
+              },
+              {
+                "itemname": "Teen Sneakers",
+                "id": 1522,
+                "file_path": "/images/TeenSneakers.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kids",
+        "id": 16,
+        "description": "Fashion and products targeted at children.",
+        "file_path": "/images/Kids.jpg",
+        "sub_categories": [
+          {
+            "name": "Playwear",
+            "id": 161,
+            "description": "Comfortable and durable clothing for kids to play in.",
+            "file_path": "/images/Playwear.jpg",
+            "data": [
+              {
+                "itemname": "Kids' Overalls",
+                "id": 1611,
+                "file_path": "/images/KidsOveralls.jpg"
+              },
+              {
+                "itemname": "Playful T-Shirt",
+                "id": 1612,
+                "file_path": "/images/PlayfulTShirt.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Schoolwear",
+            "id": 162,
+            "description": "Fashionable and functional clothing for school.",
+            "file_path": "/images/Schoolwear.jpg",
+            "data": [
+              {
+                "itemname": "School Uniform",
+                "id": 1621,
+                "file_path": "/images/SchoolUniform.jpg"
+              },
+              {
+                "itemname": "School Shoes",
+                "id": 1622,
+                "file_path": "/images/SchoolShoes.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "BrandCategories": [
+      {
+        "name": "Luxury Brands",
+        "id": 17,
+        "description": "High-end fashion brands known for their luxury and exclusivity.",
+        "file_path": "/images/LuxuryBrands.jpg",
+        "sub_categories": [
+          {
+            "name": "Designer",
+            "id": 171,
+            "description": "Top designer brands offering luxury fashion.",
+            "file_path": "/images/Designer.jpg",
+            "data": [
+              {
+                "itemname": "Gucci Handbag",
+                "id": 1711,
+                "file_path": "/images/GucciHandbag.jpg"
+              },
+              {
+                "itemname": "Louis Vuitton Wallet",
+                "id": 1712,
+                "file_path": "/images/LouisVuittonWallet.jpg"
+              }
+            ]
+          },
+          {
+            "name": "High Fashion",
+            "id": 172,
+            "description": "Exclusive high fashion brands and collections.",
+            "file_path": "/images/HighFashion.jpg",
+            "data": [
+              {
+                "itemname": "Chanel Dress",
+                "id": 1721,
+                "file_path": "/images/ChanelDress.jpg"
+              },
+              {
+                "itemname": "Prada Shoes",
+                "id": 1722,
+                "file_path": "/images/PradaShoes.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "High Street Brands",
+        "id": 18,
+        "description": "Popular brands offering trendy and affordable fashion.",
+        "file_path": "/images/HighStreetBrands.jpg",
+        "sub_categories": [
+          {
+            "name": "Affordable",
+            "id": 181,
+            "description": "Brands offering fashion at affordable prices.",
+            "file_path": "/images/Affordable.jpg",
+            "data": [
+              {
+                "itemname": "Zara Jacket",
+                "id": 1811,
+                "file_path": "/images/ZaraJacket.jpg"
+              },
+              {
+                "itemname": "H&M Trousers",
+                "id": 1812,
+                "file_path": "/images/HMTrousers.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Trendy",
+            "id": 182,
+            "description": "Brands known for their trendy and up-to-date fashion.",
+            "file_path": "/images/Trendy.jpg",
+            "data": [
+              {
+                "itemname": "Forever 21 Dress",
+                "id": 1821,
+                "file_path": "/images/Forever21Dress.jpg"
+              },
+              {
+                "itemname": "Topshop Boots",
+                "id": 1822,
+                "file_path": "/images/TopshopBoots.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "RetailFormats": [
+      {
+        "name": "Online Retailers",
+        "id": 19,
+        "description": "Fashion and products available through online platforms.",
+        "file_path": "/images/OnlineRetailers.jpg",
+        "sub_categories": [
+          {
+            "name": "E-commerce Sites",
+            "id": 191,
+            "description": "Online stores selling a wide range of fashion products.",
+            "file_path": "/images/EcommerceSites.jpg",
+            "data": [
+              {
+                "itemname": "Amazon Fashion",
+                "id": 1911,
+                "file_path": "/images/AmazonFashion.jpg"
+              },
+              {
+                "itemname": "Asos Online Store",
+                "id": 1912,
+                "file_path": "/images/AsosOnlineStore.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Brand Websites",
+            "id": 192,
+            "description": "Official websites of fashion brands.",
+            "file_path": "/images/BrandWebsites.jpg",
+            "data": [
+              {
+                "itemname": "Nike Official Store",
+                "id": 1921,
+                "file_path": "/images/NikeOfficialStore.jpg"
+              },
+              {
+                "itemname": "Adidas Online Shop",
+                "id": 1922,
+                "file_path": "/images/AdidasOnlineShop.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brick-and-Mortar Stores",
+        "id": 20,
+        "description": "Physical retail stores offering fashion products.",
+        "file_path": "/images/BrickAndMortarStores.jpg",
+        "sub_categories": [
+          {
+            "name": "Department Stores",
+            "id": 201,
+            "description": "Large retail stores with a wide range of fashion items.",
+            "file_path": "/images/DepartmentStores.jpg",
+            "data": [
+              {
+                "itemname": "Macy's",
+                "id": 2011,
+                "file_path": "/images/Macys.jpg"
+              },
+              {
+                "itemname": "Nordstrom",
+                "id": 2012,
+                "file_path": "/images/Nordstrom.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Boutiques",
+            "id": 202,
+            "description": "Specialty stores with curated fashion selections.",
+            "file_path": "/images/Boutiques.jpg",
+            "data": [
+              {
+                "itemname": "Local Boutique",
+                "id": 2021,
+                "file_path": "/images/LocalBoutique.jpg"
+              },
+              {
+                "itemname": "Designer Boutique",
+                "id": 2022,
+                "file_path": "/images/DesignerBoutique.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
